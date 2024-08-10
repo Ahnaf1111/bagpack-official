@@ -3,24 +3,87 @@
     margin: 0;
     padding: 0;
 }
+/*primary style  */
+section{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.btn-primary{
+    padding: 18px 32px;
+    border-radius: 10px;
+    background: #2A1E59;
+    color: #FFFFF4;
+}
+.p-primary{
+    color: #3E3E3E;
+    font-family: Roboto;
+    font-size: 1rem;
+    line-height: 26px; 
+}
 /* header style */
+header{
+    background: #FFFFF4;
+}
 nav{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 nav>ul{
     display: flex;
+    gap: 50px;
 }
 nav>ul>li{
     list-style: none;
 }
 nav li a{
     text-decoration: none;
+    color: #3C3C3C;
+    font-family: Roboto;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 24px;
 }
-
+.nav-img{
+    width: 300px;
+}
+.nav-img>img{
+    width: 100%;
+}
 .hamburger{
     display: none;
 }
+/* banner */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top:50px;
+    padding-bottom:124px;
+}
+.banner-text>h1{
+    color: #363958;
+    font-family: "Bebas Neue";
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.banner-text>h1>span{
+    color: #76C27E;
+}
+.banner-img{
+    text-align: center;
+    padding: 4rem 0;
+    background: url(../logo/green.png); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
 
+}
+.banner-img>img{
+    width: 50%;
+}
 
 
 

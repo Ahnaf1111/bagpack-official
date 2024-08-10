@@ -1,0 +1,27 @@
+@media screen and (max-width:576px){
+    
+
+/* nav */
+nav{
+    padding: 1rem;
+}
+nav>ul{
+    display: none;
+}
+.hamburger{
+    display: block;
+}
+.banner{
+    flex-direction: column;
+    padding: 1rem;
+}
+.banner-img>img{
+    width: 100%;
+}
+
+
+
+
+
+
+}
