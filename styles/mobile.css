@@ -18,8 +18,16 @@ nav>ul{
 .banner-img>img{
     width: 100%;
 }
-
-
+/* service */
+.service{
+    flex-direction: column-reverse;
+    padding: 1rem;
+    gap: 2rem;
+}
+.card{
+    text-align: center;
+    flex-direction: column;
+}
 
 
 
