@@ -28,6 +28,14 @@ nav>ul{
     text-align: center;
     flex-direction: column;
 }
+/* bag */
+.bag-cards{
+    flex-direction: column;
+}
+main{
+    display: flex;
+    flex-direction: column-reverse;
+}
 
 
 
